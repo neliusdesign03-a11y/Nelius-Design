@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nelius Design | Cornelius Coetzee</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #111;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    header.hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: #f5f5f5;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      margin: 5px;
+      background: black;
+      color: white;
+      text-decoration: none;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      padding: 20px;
+      border: 1px solid #ddd;
+      background: #fff;
+    }
+
+    form {
+      display: grid;
+      gap: 10px;
+    }
+
+    input, textarea, select {
+      padding: 10px;
+      border: 1px solid #ccc;
+      width: 100%;
+    }
+
+    button {
+      padding: 12px;
+      background: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: #f5f5f5;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<header class="hero">
+  <div>
+    <h1>Nelius Design</h1>
+    <p>Graphic Design by Cornelius Coetzee — visual identity with clarity and impact.</p>
+    <a href="#portfolio" class="btn">View Portfolio</a>
+    <a href="#contact" class="btn">Contact Me</a>
+  </div>
+</header>
+
+<!-- BLOG SECTION -->
+ <section id="blog">
+  <h2>Blog</h2>
+  <p>A journal showcasing my thoughts</p>
+  </section>
+
+<!-- PORTFOLIO SECTION -->
+<section id="portfolio">
+  <h2>Selected Work</h2>
+  <p>A curated selection of branding and design projects.</p>
+
+  <div class="grid">
+    <div class="card">Project 1</div>
+    <div class="card">Project 2</div>
+    <div class="card">Project 3</div>
+    <div class="card">Project 4</div>
+  </div>
+</section>
+
+<!-- SERVICES SECTION -->
+<section id="services">
+  <h2>Services</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Brand Identity</h3>
+      <p>Logos, identity systems, brand guidelines.</p>
+    </div>
+
+    <div class="card">
+      <h3>Graphic Design</h3>
+      <p>Posters, social media, marketing visuals.</p>
+    </div>
+
+    <div class="card">
+      <h3>Digital Design</h3>
+      <p>Web visuals, UI elements, digital campaigns.</p>
+    </div>
+
+    <div class="card">
+      <h3>Print Design</h3>
+      <p>Packaging, editorial, business materials.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Let’s work together. Send a message below.</p>
+
+  <form>
+    <input type="text" placeholder="Full Name" required />
+    <input type="email" placeholder="Email Address" required />
+
+    <select>
+      <option>Branding</option>
+      <option>Graphic Design</option>
+      <option>Collaboration</option>
+      <option>General Inquiry</option>
+    </select>
+
+    <textarea rows="5" placeholder="Your Message"></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Nelius Design — Cornelius Coetzee</p>
+</footer>
+
+</body>
+</html>
