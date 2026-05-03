@@ -25,7 +25,7 @@ header.hero {
   justify-content: left;
   padding: 7%;
   text-align: center;
-  background-image: url("C:/Users/corni/Documents/Nelius Design Website/images/Sky.jpg");
+  background-image: url("images/Sky.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -54,20 +54,10 @@ header.hero {
   padding: 0 50px;
 }
 
-#navbar__logo {
-background-color: #fff;
-background-image: linear-gradient(to top, #fff 0%, #909090 100%);
-background-size: 100%;
-background-clip: text;
--webkit-background-clip: text;
--moz-background-clip: text;
--webkit-text-fill-color: transparent;
--moz-text-fill-color: transparent;
-display: flex;
-align-items: center;
-cursor: pointer;
-text-decoration: none;
-font-size: 2rem;
+#navbar__logo img {
+  height: 50px;
+  width: auto;
+  display: block;
 }
 
 .fa-gem {
@@ -107,7 +97,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-decoration: none;
-padding: 10px 20px;
+padding: 10px 60px;
 height: 100%;
 width: 100%;
 border: none;
