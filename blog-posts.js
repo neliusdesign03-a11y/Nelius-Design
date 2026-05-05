@@ -1,5 +1,12 @@
 const blogPosts = [
   {
+    title: "Test Piece",
+    image: "images/Sky.jpg",
+    Date: "May 5, 2026",
+    excerpt: "Today I'll test to see how this works.",
+    url: "blog.html#test-peice"
+  },
+    {
     title: "New Portfolio Launch",
     image: "images/news1.jpg",
     Date: "June 15, 2024",
@@ -19,5 +26,6 @@ const blogPosts = [
     Date: "August 5, 2024",
     excerpt: "Learn how we helped a client achieve their goals through innovative design solutions.",
     url: "blog.html#client-success-story"
-  }
+  },
+
 ];
