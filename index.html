@@ -62,14 +62,13 @@
   </div>
 </header>
 
-<!-- BLOG SECTION -->
- <section id="blog">
-  <h2>Blog</h2>
+<!-- LATEST NEWS SECTION -->
+<section id="latest-news">
+  <h2>Latest News</h2>
   <p>A journal showcasing my thoughts and ideas.</p>
+  <div class="news-container" data-max-posts="3"></div>
   <a href="blog.html" class="btn">Read the Blog</a>
-  </section>
-
-
+</section>
 
 <!-- PORTFOLIO SECTION -->
 <section id="portfolio">
@@ -143,6 +142,24 @@
 <footer>
   <p>2026 Nelius Design Cornelius Coetzee</p>
 </footer>
+
+<script src="blog-posts.js"></script>
+<script>
+  const container = document.querySelector('.news-container');
+  if (container) {
+    const maxPosts = Number(container.dataset.maxPosts) || blogPosts.length;
+    const postsToShow = blogPosts.slice(0, maxPosts);
+    container.innerHTML = postsToShow.map(post => `
+      <div class="news-item">
+        <img src="${post.image}" alt="${post.title}">
+        <p class="news-date">${post.Date}</p>
+        <h3>${post.title}</h3>
+        <p>${post.excerpt}</p>
+        <a href="${post.url}" class="btn">Read More</a>
+      </div>
+    `).join('');
+  }
+</script>
 
 </body>
 </html>

@@ -185,8 +185,16 @@ header.hero {
   margin: auto;
 }
 
-#latest-news h2 {
+
+#blog-welcome h1 {
   font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00709c;
+}
+
+
+#latest-news h2 {
+  font-size: 2rem;
   margin-bottom: 20px;
   color: #00709c;
 }
@@ -210,8 +218,17 @@ header.hero {
   margin-bottom: 15px;
 }
 
+.news-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
 #latest-news .btn {
   margin-top: 10px;
+  background: none;
+  color: #00709c;
 }
 
 
@@ -244,8 +261,8 @@ select {
 
 button {
   padding: 12px;
-  background: black;
-  color: white;
+  background: rgb(185, 41, 41);
+  color: rgb(0, 0, 0);
   border: none;
   cursor: pointer;
 }
