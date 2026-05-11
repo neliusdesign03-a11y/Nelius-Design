@@ -68,13 +68,18 @@ section {
 }
 
 .navbar__links {
-  color: #202020;
+  color: #00709c;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
+}
+
+.navbar__links:hover {
+  color: #fe9000;
+  transition: all 0.3s ease;
 }
 
 .navbar__btn {
@@ -104,10 +109,6 @@ background-color: #fe9000;
 transition: all 0.3s ease;
 }  
 
-.navbar__links:hover {
-  color: #00709c;
-  transition: all 0.3s ease;
-}
 
 
 
@@ -138,13 +139,17 @@ header.hero {
 .btn {
   display: inline-block;
   padding: 12px 20px;
+  border-radius: 4px;
   margin: 5px;
-  background: black;
+  background: #00709c;
   color: white;
   text-decoration: none;
 }
 
-
+.btn:hover {
+  background: #fe9000;
+  transition: all 0.3s ease;
+}
 
 #blog {
   background: #fff;
@@ -261,13 +266,17 @@ select {
 
 button {
   padding: 12px;
-  background: rgb(185, 41, 41);
-  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  background: #00709c;
+  color: #fff;
   border: none;
   cursor: pointer;
 }
 
-
+button:hover {
+  background: #fe9000;
+  transition: all 0.3s ease;
+}
 
 footer {
   width: 100%;
@@ -275,4 +284,18 @@ footer {
   padding: 40px;
   background: #c9cacc;
   box-sizing: border-box;
+}
+
+footer p {
+  margin: 5px 0;
+  color: #202020;
+  align-items: left;
+}
+
+#footer-logo img {
+  height: 50px;
+  width: 60px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
 }
