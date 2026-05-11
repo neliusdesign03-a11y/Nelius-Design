@@ -281,6 +281,7 @@ button:hover {
 footer {
   width: 100%;
   text-align: center;
+  align-items: center;
   padding: 40px;
   background: #c9cacc;
   box-sizing: border-box;
@@ -288,8 +289,9 @@ footer {
 
 footer p {
   margin: 5px 0;
-  color: #202020;
+  color: #00709c;
   align-items: left;
+  background-position: center;
 }
 
 #footer-logo img {
@@ -298,4 +300,10 @@ footer p {
   object-fit: contain;
   display: block;
   margin: auto;
+  background-position: center;
+}
+
+#footer a {
+  color: #00709c;
+  text-decoration: none;
 }
